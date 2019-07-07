@@ -1,3 +1,20 @@
+.header-fixed {
+  background-color: yellow;
+}
+.fixed {
+  position: fixed;
+}
+.header-nav {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 .visible {
   display: block;
 }
@@ -15,12 +32,18 @@
 }
 .flag {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin: 5px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+@media (min-width: 768px) {
+  .flag {
+    width: 50px;
+    height: 50px;
+  }
 }
 .flag-rus {
   background-image: url(../img/flag_rus.png);
@@ -35,16 +58,26 @@
   background-image: url(../img/flag_eng_hidden.png);
 }
 .navigation-rus {
-  text-align: right;
+  text-align: center;
   padding-top: 15px;
 }
+@media (min-width: 576px) {
+  .navigation-rus {
+    text-align: right;
+  }
+}
 .navigation-eng {
-  text-align: right;
+  text-align: center;
   padding-top: 15px;
+}
+@media (min-width: 576px) {
+  .navigation-eng {
+    text-align: right;
+  }
 }
 .navigation__link {
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 900;
@@ -59,4 +92,12 @@
   font-weight: 900;
   text-decoration: none;
   color: #000;
+}
+.bg-carousel {
+  background-color: red;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
 }

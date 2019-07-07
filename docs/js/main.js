@@ -49,5 +49,14 @@ $(document).ready(function() {
 		flag_rus.addClass("flag-rus--hidden");
 
 	});
+
+
+  $(".owl-carousel").owlCarousel({
+  	items: 1,
+  	loop: true,
+  	autoplay: true,
+  	autoplayTimeout: 5000,
+  });
+
 	
 });

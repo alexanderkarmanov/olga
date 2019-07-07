@@ -1,75 +1,10 @@
-.visible {
-	display: block;
-}
+// section
+@import "section/_header.less";
+@import "section/base.less";
 
-.hidden {
-	display: none;
-}
 
-.block {
-	background-color: green;
-	height: 50px;
-	padding: 0px 10px;
-}
+// Block
+@import "block/_navigation.less";
+@import "block/_logo.less";
+@import "block/_bg-carousel.less";
 
-.flag-change {
-	display: flex;
-	justify-content: center;
-}
-
-.flag{
-	display: block;
-	width: 50px;
-	height: 50px;
-	margin: 5px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-.flag-rus {
-	background-image: url(../img/flag_rus.png);
-
-	&--hidden {
-	background-image: url(../img/flag_rus_hidden.png);
-	}
-}
-
-.flag-eng {
-	background-image: url(../img/flag_eng.png);
-
-	&--hidden {
-	background-image: url(../img/flag_eng_hidden.png);
-
-	}
-}
-
-.navigation-rus {
-	text-align: right;
-	padding-top: 15px;
-}
-
-.navigation-eng {
-	text-align: right;
-	padding-top: 15px;
-}
-
-.navigation__link {
-	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-weight: 900;
-	text-decoration: none;
-	color: #000;
-}
-
-.navigation-span {
-	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
-	letter-spacing: 2.5px;
-	text-transform: uppercase;
-	font-weight: 900;
-	text-decoration: none;
-	color: #000;
-}

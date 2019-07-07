@@ -1,0 +1,88 @@
+.visible {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.block {
+	background-color: green;
+	height: 50px;
+	padding: 0px 10px;
+}
+
+.flag-change {
+	display: flex;
+	justify-content: center;
+}
+
+.flag{
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	@media (min-width: 768px) {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.flag-rus {
+	background-image: url(../img/flag_rus.png);
+
+	&--hidden {
+	background-image: url(../img/flag_rus_hidden.png);
+	}
+}
+
+.flag-eng {
+	background-image: url(../img/flag_eng.png);
+
+	&--hidden {
+	background-image: url(../img/flag_eng_hidden.png);
+
+	}
+}
+
+.navigation-rus {
+	text-align: center;
+	padding-top: 15px;
+
+	@media (min-width: 576px) {
+		text-align: right;
+	}
+}
+
+.navigation-eng {
+	text-align: center;
+	padding-top: 15px;
+
+	@media (min-width: 576px) {
+		text-align: right;
+	}
+}
+
+.navigation__link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-decoration: none;
+	color: #000;
+}
+
+.navigation-span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-decoration: none;
+	color: #000;
+}
