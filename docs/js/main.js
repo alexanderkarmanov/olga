@@ -7,8 +7,8 @@ $(document).ready(function() {
 // Создаем переменые для кнопки и для меню
 	var pull = $("#navigation-rus");
 	var holl = $("#navigation-eng")
-	var rus = $(".navigation-rus");
-	var eng = $(".navigation-eng");
+	var rus = $(".rus");
+	var eng = $(".eng");
 	var flag_rus = $(".flag-rus");
 	var flag_eng = $(".flag-eng");
 
