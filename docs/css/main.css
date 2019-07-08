@@ -24,6 +24,18 @@
   text-transform: uppercase;
   font-weight: 900;
   color: #fff;
+  position: relative;
+  margin-bottom: 60px;
+  padding-left: 5px;
+}
+.header-content__subtitle:after {
+  content: " ";
+  width: 30px;
+  height: 2px;
+  background-color: #b88b58;
+  position: absolute;
+  top: 65px;
+  left: 5px;
 }
 .header-content__slogan {
   font-family: 'Playfair Display', serif;
@@ -33,10 +45,19 @@
   padding-top: 30px;
   padding-right: 190px;
   line-height: 1;
-  margin-top: 30px;
+  position: relative;
 }
 .header-content__slogan span {
-  font-style: italic;
+  font-size: 50px;
+}
+.header-content__slogan:before {
+  content: "«";
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  left: -30px;
+  top: 33px;
+  font-size: 50px;
 }
 .frame1 {
   background-image: url(../img/foto_25.jpg);
@@ -59,6 +80,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.navigation {
+  display: flex;
+  justify-content: right;
+}
 html,
 body {
   margin: 0;
@@ -80,11 +105,6 @@ p {
 }
 .hidden {
   display: none;
-}
-.block {
-  background-color: green;
-  height: 50px;
-  padding: 0px 10px;
 }
 .flag-change {
   display: flex;
@@ -116,6 +136,9 @@ p {
 }
 .flag-eng--hidden {
   background-image: url(../img/flag_eng_hidden.png);
+}
+.nav {
+  margin-left: 20px;
 }
 .navigation-rus {
   text-align: center;
