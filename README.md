@@ -13,9 +13,4 @@
 Форма обратной связи
 
 ## Онлайн демо:
-https://alexanderkarmanov.github.io/travel/
-
-## Тестировать локально:
-git clone https://github.com/alexanderkarmanov/travel.git
-
-открыть index.html
+https://alexanderkarmanov.github.io/olga/
