@@ -10,6 +10,8 @@
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap&subset=cyrillic" rel="stylesheet"> 
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
 
 	<!-- Owl-carousel -->
 	<link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
@@ -19,10 +21,9 @@
 
 </head>
 <body>
-	<!-- header -->
-	<div>
-		<div class="container header-nav">
-			<div class="row">
+<!-- navigation -->
+<div class="container fixed navigation-section">
+			<div class="row ">
 				<div class="logo col-6 col-sm-3">
 					<img src="img/logo.jpg" alt="logo">
 				</div>
@@ -53,11 +54,13 @@
 					</div>
 			</div>
 			</div>
+			</div>
+<!-- // navigation -->
 
-			<div class="row">
-				<!-- header content -->
+<!-- header -->
+<div class="container header-section">
+	<div class="row">
 		<div class="header-content col-xl-6">
-			
 			<h1 class="header-content__title rus visible">Ольга Баранцева</h1>
 			<h1 class="header-content__title eng hidden">Olga Barantseva</h1>
 			<div class="header-content__subtitle rus visible">Жанровый портрет</div>
@@ -65,36 +68,84 @@
 			<h2 class="header-content__slogan rus visible">История<br>в одном<br><i>кадре</i> <span>»</span></h2>
 			<h2 class="header-content__slogan eng hidden">the story<br>in a single<br><i>frame</i> <span>»</span></h2>
 
+			<div class="work-link">мои работы</div>
 
-
-
-
-
-		</div>
-		<!-- //header content -->
+			<div class="header-social">
+				<i class="fa fa-facebook-official" aria-hidden="true"></i>
+				<i class="fa fa-vk" aria-hidden="true"></i>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
 			</div>
+		</div>		
+	</div>
+</div>
+
+<!-- owl-carousel -->
+<div class="bg-carousel">
+	<div class="owl-carousel">
+		<div class="frame1"> </div>
+		<div class="frame2"> </div>
+		<div class="frame3"> </div>
+	</div>
+</div>
+<!-- // owl-carousel -->
+<!-- // header -->
+
+<!-- biography -->
+<div class="biography container bio-section">
+	<div class="biography-text">
+		<div class="biography__avatar"><img src="img/avatar.jpg" alt=""></div>
+		<h1 class="biography__title rus">Обо мне</h1>
+		<h1 class="biography__title eng hidden">About me</h1>
+			<p class="biography__content">Mеня зовут Ольга Баранцева, я фотограф.
+			Родилась и выросла в Москве, но с раннего детства очень часто бывала
+			на природе в окружении животных в деревне у бабушки. Mоя любовь
+			к сказкам переросла в свой волшебный мир где царит своя атмосфера,
+			гармонию которой я стараюсь передать в своих фотоснимках.</p>
+			<p class="biography__content">Снимаю с 2007 года, в основном это фотосессии с животными и творческие портреты, мои работы опубликованы по всему миру
+			в журналах и газетах. Среди прочих Daily Mail, The Times, New York
+			Post, Daily Telegraph, The Sun, Metro.</p>		
+	</div>
+	<div class="work-link">мои работы</div>
+</div>
+<!-- // biography -->
+
+<!-- gallery -->
+<div class="gallery container gallery-section"></div>
+<!-- // gallery -->
+
+<!-- contact -->
+<div class="contact container contact-section">
+	<div class="contact_block">
+		<h1 class="contact-title">Контакты</h1>
+		<h2 class="contact_subtitle">barantseva.photo@gmail.com</h2>
+		<div class="row">
+		<p class="contact_text col-5">
+			Для меня дорог каждый, кто проявил интерес
+			к моим услугам или моему творчеству, и поэтому
+			Ваше сообщение не останется без ответа.</p>
+		<div class="contact-social col-4 offset-3">
+			<i class="fa fa-facebook-official" aria-hidden="true"></i>
+			<i class="fa fa-vk" aria-hidden="true"></i>
+			<i class="fa fa-instagram" aria-hidden="true"></i>
 		</div>
 
-	
-		<!-- header content -->
-
-
-		<!-- bg-carousel -->
-		<div class="bg-carousel">
-			<div class="owl-carousel">
-				<div class="frame1"> </div>
-				<div class="frame2"> </div>
-				<div class="frame3"> </div>
-			</div>
 		</div>
+
 	</div>
 
 
 
+</div>
 
-	<!-- bg-carousel -->
 
-	<!-- // header -->
+ 
+
+ 
+<!-- // contact -->
+
+
+
+
 
 <script src="libs/jquery/dist/jquery.min.js"></script>
 <script src="libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

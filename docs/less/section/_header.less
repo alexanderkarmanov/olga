@@ -1,9 +1,9 @@
-.header-fixed {
-	background-color: yellow;
-}
-
 .fixed {
 	position: fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	z-index: 3;
 }
 
 .header-nav {
@@ -13,13 +13,17 @@
 	right: 0;
 }
 
+.header-content {
+	position: absolute;
+	z-index: 2;
+}
+
 .header-content__title {
 	font-family: 'Playfair Display', serif;
 	font-size: 60px;
 	color: @olive;
 	font-weight: bold;
-	padding-top: 30px;
-	// text-shadow: 5px 13px 30px -15px rgba(0,0,0,0.75);
+	padding-top: 130px;
 }
 
 .header-content__subtitle {
@@ -70,7 +74,7 @@
 
 .frame1 {
 	background-image: url(../img/foto_25.jpg);
-	height: 900px;
+	height: 920px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -78,7 +82,7 @@
 
 .frame2 {
 	background-image: url(../img/foto_6.jpg);
-	height: 900px;
+	height: 920px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -86,7 +90,7 @@
 
 .frame3 {
 	background-image: url(../img/foto_12.jpg);
-	height: 900px;
+	height: 920px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -95,4 +99,27 @@
 .navigation {
 	display: flex;
 	justify-content: right;
+	padding-top: 20px;
+}
+
+.work-link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2.2px;
+	text-transform: uppercase;
+	color: @olive;
+	margin-top: 140px;
+	border: 2px solid @olive;
+	padding: 10px 30px 10px 50px;
+	display: inline-block;
+}
+
+.header-social {
+	font-size: 30px;
+	color: #fff;
+	padding-top: 140px;
+
+	i {
+		padding-right: 10px;
+	}
 }
