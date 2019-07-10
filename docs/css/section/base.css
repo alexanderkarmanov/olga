@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2f1f1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  transition: 0.2s;
+}
+.header-section {
+  padding-bottom: 55px;
+}
+.bio-section {
+  background-color: #f2f1f1;
+  height: 920px;
+}
+.gallery-section {
+  background-color: #DA70D6;
+  height: 920px;
+  padding-top: 130px;
+}
+.contact-section {
+  background-color: #FFDEAD;
+  height: 920px;
+}

@@ -74,7 +74,7 @@
 
 .frame1 {
 	background-image: url(../img/foto_25.jpg);
-	height: 920px;
+	height: 915px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -82,7 +82,7 @@
 
 .frame2 {
 	background-image: url(../img/foto_6.jpg);
-	height: 920px;
+	height: 915px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -90,7 +90,7 @@
 
 .frame3 {
 	background-image: url(../img/foto_12.jpg);
-	height: 920px;
+	height: 915px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -107,11 +107,20 @@
 	font-size: 20px;
 	letter-spacing: 2.2px;
 	text-transform: uppercase;
-	color: @olive;
+	color: black;
 	margin-top: 140px;
 	border: 2px solid @olive;
 	padding: 10px 30px 10px 50px;
 	display: inline-block;
+	text-decoration: none;
+
+	&:hover, &:active, &:focus {
+		color: @olive;
+	}
+
+	&--header {
+		color: #fff;
+	}
 }
 
 .header-social {

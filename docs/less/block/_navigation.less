@@ -43,7 +43,7 @@
 }
 
 .nav {
-	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .navigation-rus {
@@ -65,6 +65,7 @@
 }
 
 .navigation__link {
+	display: inline-block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 11px;
 	letter-spacing: 2px;
@@ -72,9 +73,18 @@
 	font-weight: 900;
 	text-decoration: none;
 	color: @olive;
+	transition: 0.2s;
 
 	@media (min-width: 992px) {
 		font-size: 16px
+	}
+
+	&:hover, &:active, &:focus {
+		// text-decoration: underline;
+		// &:after {
+			border-bottom: 2px solid @olive;
+			padding-bottom: 3px;
+		
 	}
 }
 

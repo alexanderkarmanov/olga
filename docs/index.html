@@ -30,35 +30,35 @@
 
 				<div class="col-6 col-sm-9 navigation">
 
-					<div class="flags flag-change">
-							<a href="#" id="navigation-rus" class="flag flag-rus">
-							</a>
-							<a href="#" id="navigation-eng" class="flag flag-eng flag-eng--hidden"></a>
-					</div>
-
 					<div class="nav">
 						<nav class="navigation-rus rus visible" >
-						<a href="#" class="navigation__link">главная</a>
+						<a href="#home" class="navigation__link">главная</a>
 						<span class="navigation-span">/</span>
-						<a href="#" class="navigation__link">обо мне</a>
+						<a href="#bio" class="navigation__link">обо мне</a>
 						<span class="navigation-span">/</span>
-						<a href="#" class="navigation__link">Контакты</a>
-					</nav>
-					<nav class="navigation-eng eng hidden" >
-						<a href="#" class="navigation__link">home</a>
+						<a href="#contact" class="navigation__link">Контакты</a>
+						</nav>
+						<nav class="navigation-eng eng hidden" >
+						<a href="#home" class="navigation__link">home</a>
 						<span class="navigation-span">/</span>
-						<a href="#" class="navigation__link">about me</a>
+						<a href="#bio" class="navigation__link">about me</a>
 						<span class="navigation-span">/</span>
-						<a href="#" class="navigation__link">contacts</a>
-					</nav>
+						<a href="#contact" class="navigation__link">contacts</a>
+						</nav>
 					</div>
-			</div>
+
+					<div class="flags flag-change">
+						<a href="#" id="navigation-rus" class="flag flag-rus">
+						</a>
+						<a href="#" id="navigation-eng" class="flag flag-eng flag-eng--hidden"></a>
+					</div>
+				</div>
 			</div>
 			</div>
 <!-- // navigation -->
 
 <!-- header -->
-<div class="container header-section">
+<div class="container header-section" id="home">
 	<div class="row">
 		<div class="header-content col-xl-6">
 			<h1 class="header-content__title rus visible">Ольга Баранцева</h1>
@@ -68,7 +68,7 @@
 			<h2 class="header-content__slogan rus visible">История<br>в одном<br><i>кадре</i> <span>»</span></h2>
 			<h2 class="header-content__slogan eng hidden">the story<br>in a single<br><i>frame</i> <span>»</span></h2>
 
-			<div class="work-link">мои работы</div>
+			<a href="#works" class="work-link work-link--header">мои работы</a>
 
 			<div class="header-social">
 				<i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -91,7 +91,7 @@
 <!-- // header -->
 
 <!-- biography -->
-<div class="biography container bio-section">
+<div class="biography container bio-section" id="bio">
 	<div class="biography-text">
 		<div class="biography__avatar"><img src="img/avatar.jpg" alt=""></div>
 		<h1 class="biography__title rus">Обо мне</h1>
@@ -105,16 +105,32 @@
 			в журналах и газетах. Среди прочих Daily Mail, The Times, New York
 			Post, Daily Telegraph, The Sun, Metro.</p>		
 	</div>
-	<div class="work-link">мои работы</div>
+	<a href="#works" class="work-link">мои работы</a>
 </div>
 <!-- // biography -->
 
 <!-- gallery -->
-<div class="gallery container gallery-section"></div>
+<div class="gallery container gallery-section" id="works">
+	<div class="row">
+		<div class="gallery-img">
+			<img src="img/foto_2.jpg" alt="">
+		</div>
+		<div class="gallery-img">
+			<img src="img/foto_6.jpg" alt="">
+		</div>
+		<div class="gallery-img">
+			<img src="img/foto_12.jpg" alt="">
+		</div>
+		<div class="gallery-img">
+			<img src="img/foto_25.jpg" alt="">
+		</div>
+
+	</div>
+</div>
 <!-- // gallery -->
 
 <!-- contact -->
-<div class="contact container contact-section">
+<div class="contact container contact-section" id="contact">
 	<div class="contact_block">
 		<h1 class="contact-title">Контакты</h1>
 		<h2 class="contact_subtitle">barantseva.photo@gmail.com</h2>
@@ -130,8 +146,12 @@
 		</div>
 
 		</div>
-
 	</div>
+
+	<form action="" class="contact-form">
+		
+
+	</form>
 
 
 

@@ -66,21 +66,21 @@
 }
 .frame1 {
   background-image: url(../img/foto_25.jpg);
-  height: 920px;
+  height: 915px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .frame2 {
   background-image: url(../img/foto_6.jpg);
-  height: 920px;
+  height: 915px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .frame3 {
   background-image: url(../img/foto_12.jpg);
-  height: 920px;
+  height: 915px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,11 +95,20 @@
   font-size: 20px;
   letter-spacing: 2.2px;
   text-transform: uppercase;
-  color: #b88b58;
+  color: black;
   margin-top: 140px;
   border: 2px solid #b88b58;
   padding: 10px 30px 10px 50px;
   display: inline-block;
+  text-decoration: none;
+}
+.work-link:hover,
+.work-link:active,
+.work-link:focus {
+  color: #b88b58;
+}
+.work-link--header {
+  color: #fff;
 }
 .header-social {
   font-size: 30px;
@@ -114,7 +123,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #ddd;
+  background-color: #f2f1f1;
 }
 h1,
 h2,
@@ -126,17 +135,20 @@ p {
   margin: 0;
   padding: 0;
 }
+a {
+  transition: 0.2s;
+}
 .header-section {
-  background-color: #9ACD32;
   padding-bottom: 55px;
 }
 .bio-section {
-  background-color: #00CED1;
+  background-color: #f2f1f1;
   height: 920px;
 }
 .gallery-section {
   background-color: #DA70D6;
   height: 920px;
+  padding-top: 130px;
 }
 .contact-section {
   background-color: #FFDEAD;
@@ -145,7 +157,7 @@ p {
 .biography {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #fff;
+  background-color: #f2f1f1;
 }
 .biography__avatar {
   width: 405px;
@@ -197,6 +209,23 @@ p {
   font-size: 100px;
   color: #fff;
 }
+.contact-form {
+  background-color: #fff;
+  height: 340px;
+  margin-top: 50px;
+}
+.gallery-img {
+  background-color: blue;
+  height: 100px;
+  width: 25%;
+}
+.gallery-img img {
+  width: 100%;
+  height: auto;
+}
+.gallery-block {
+  background-color: green;
+}
 .visible {
   display: block;
 }
@@ -235,7 +264,7 @@ p {
   background-image: url(../img/flag_eng_hidden.png);
 }
 .nav {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 .navigation-rus {
   text-align: center;
@@ -256,6 +285,7 @@ p {
   }
 }
 .navigation__link {
+  display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 11px;
   letter-spacing: 2px;
@@ -263,11 +293,18 @@ p {
   font-weight: 900;
   text-decoration: none;
   color: #b88b58;
+  transition: 0.2s;
 }
 @media (min-width: 992px) {
   .navigation__link {
     font-size: 16px;
   }
+}
+.navigation__link:hover,
+.navigation__link:active,
+.navigation__link:focus {
+  border-bottom: 2px solid #b88b58;
+  padding-bottom: 3px;
 }
 .navigation-span {
   font-family: 'Roboto', sans-serif;
