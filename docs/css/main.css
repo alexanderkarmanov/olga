@@ -112,8 +112,16 @@
 }
 .header-social {
   font-size: 30px;
-  color: #fff;
   padding-top: 140px;
+}
+.header-social a {
+  color: #fff;
+  text-decoration: none;
+}
+.header-social a:hover,
+.header-social a:active,
+.header-social a:focus {
+  color: #b88b58;
 }
 .header-social i {
   padding-right: 10px;
@@ -146,12 +154,10 @@ a {
   height: 920px;
 }
 .gallery-section {
-  background-color: #DA70D6;
   height: 920px;
-  padding-top: 130px;
+  padding-top: 180px;
 }
 .contact-section {
-  background-color: #FFDEAD;
   height: 920px;
 }
 .biography {
@@ -207,24 +213,34 @@ a {
 }
 .contact-social {
   font-size: 100px;
+}
+.contact-social a {
   color: #fff;
+  text-decoration: none;
+}
+.contact-social a:hover,
+.contact-social a:active,
+.contact-social a:focus {
+  color: #b88b58;
 }
 .contact-form {
   background-color: #fff;
   height: 340px;
-  margin-top: 50px;
+  margin-top: 40px;
+  border: 2px solid #b88b58;
 }
 .gallery-img {
   background-color: blue;
-  height: 100px;
+  height: 275px;
   width: 25%;
+  overflow: hidden;
 }
 .gallery-img img {
-  width: 100%;
-  height: auto;
+  height: 100%;
 }
-.gallery-block {
-  background-color: green;
+.gallery-box {
+  padding: 20px;
+  border: 2px solid #b88b58;
 }
 .visible {
   display: block;

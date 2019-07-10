@@ -125,8 +125,16 @@
 
 .header-social {
 	font-size: 30px;
-	color: #fff;
 	padding-top: 140px;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+
+		&:hover, &:active, &:focus {
+		color: @olive;
+	}
+	}
 
 	i {
 		padding-right: 10px;

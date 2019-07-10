@@ -25,11 +25,19 @@
 
 .contact-social {
 	font-size: 100px;
+
+	a{
 	color: #fff;
+	text-decoration: none;
+
+	&:hover, &:active, &:focus {
+		color: @olive;}
+	}
 }
 
 .contact-form {
 	background-color: #fff;
 	height: 340px;
-	margin-top: 50px;
+	margin-top: 40px;
+	border: 2px solid @olive;
 }
