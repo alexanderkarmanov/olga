@@ -21,6 +21,7 @@
   color: #b88b58;
   font-weight: bold;
   padding-top: 130px;
+  text-shadow: #000 0.5px 3px 3px;
 }
 .header-content__subtitle {
   font-family: 'Roboto', sans-serif;
@@ -72,14 +73,14 @@
   background-size: cover;
 }
 .frame2 {
-  background-image: url(../img/foto_6.jpg);
+  background-image: url(../img/foto_8.jpg);
   height: 915px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .frame3 {
-  background-image: url(../img/foto_12.jpg);
+  background-image: url(../img/foto_14.jpg);
   height: 915px;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,21 +99,29 @@
   color: black;
   margin-top: 140px;
   border: 2px solid #b88b58;
-  padding: 10px 30px 10px 50px;
+  padding: 10px 30px 10px 30px;
   display: inline-block;
   text-decoration: none;
+  margin-bottom: 140px;
 }
 .work-link:hover,
 .work-link:active,
 .work-link:focus {
   color: #b88b58;
+  padding: 15px 35px 15px 35px;
+  border-color: #b88b58;
+  margin-bottom: 130px;
 }
 .work-link--header {
   color: #fff;
 }
+.work-link--header:hover,
+.work-link--header:active,
+.work-link--header:focus {
+  border-color: #fff;
+}
 .header-social {
   font-size: 30px;
-  padding-top: 140px;
 }
 .header-social a {
   color: #fff;

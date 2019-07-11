@@ -24,6 +24,7 @@
 	color: @olive;
 	font-weight: bold;
 	padding-top: 130px;
+	text-shadow: #000 0.5px 3px 3px;
 }
 
 .header-content__subtitle {
@@ -81,7 +82,7 @@
 }
 
 .frame2 {
-	background-image: url(../img/foto_6.jpg);
+	background-image: url(../img/foto_8.jpg);
 	height: 915px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -89,7 +90,7 @@
 }
 
 .frame3 {
-	background-image: url(../img/foto_12.jpg);
+	background-image: url(../img/foto_14.jpg);
 	height: 915px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -110,22 +111,30 @@
 	color: black;
 	margin-top: 140px;
 	border: 2px solid @olive;
-	padding: 10px 30px 10px 50px;
+	padding: 10px 30px 10px 30px;
 	display: inline-block;
 	text-decoration: none;
+	margin-bottom: 140px;
 
 	&:hover, &:active, &:focus {
 		color: @olive;
+		padding: 15px 35px 15px 35px;
+		border-color: @olive;
+		margin-bottom: 130px;
+
 	}
 
 	&--header {
 		color: #fff;
+		&:hover, &:active, &:focus {
+		border-color: #fff;	
+		}
+
 	}
 }
 
 .header-social {
 	font-size: 30px;
-	padding-top: 140px;
 
 	a {
 		color: #fff;

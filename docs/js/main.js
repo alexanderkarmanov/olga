@@ -58,5 +58,9 @@ $(document).ready(function() {
   	autoplayTimeout: 5000,
   });
 
+  $("nav a,a[href='#gallery'],a[href='#top'],a[rel='m_PageScroll2id'],a.PageScroll2id").mPageScroll2id({
+	    highlightSelector:"nav a"
+	});
+
 	
 });
