@@ -3,6 +3,7 @@
 	height: 275px;
 	width: 100%;
 	overflow: hidden;
+	position: relative;
 
 	@media (min-width: 576px) {
 		height: 160px;
@@ -27,6 +28,47 @@
 		height: 100%;
 	}
 }
+
+.gallery-img__hover	{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+
+	top: 0%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(250, 250, 250, 0.5);
+	height: 100%;
+	transition: 0.5s;
+	align-items: center;
+	
+	span {
+		display: inline-block;
+		// border: 2px solid @olive;
+		width: 80%;
+		height: 80%;
+
+		// &:hover {
+		// display: inline-block;
+		// }
+	}
+}
+
+.gallery-img:hover .gallery-img__hover{
+	background-color: transparent;
+
+	span {
+		display: inline-block;
+		border: 2px solid @olive;
+		// width: 90%;
+		// height: 90%;
+	}
+	}
+
+
+
+
 
 .gallery-box {
 	padding: 20px;
