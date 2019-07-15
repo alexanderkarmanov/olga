@@ -23,11 +23,11 @@ a {
 }
 .bio-section {
   background-color: #f2f1f1;
-  height: 920px;
 }
-.gallery-section {
-  height: 920px;
-  padding-top: 180px;
+@media (min-width: 576px) {
+  .gallery-section {
+    padding-top: 180px;
+  }
 }
 .contact-section {
   height: 920px;
