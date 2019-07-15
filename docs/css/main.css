@@ -175,8 +175,14 @@
 }
 .work-link--header {
   color: #fff;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+@media (min-width: 576px) {
+  .work-link--header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 1200px) {
   .work-link--header {
@@ -188,6 +194,14 @@
 .work-link--header:active,
 .work-link--header:focus {
   border-color: #fff;
+  margin-bottom: 30px;
+}
+@media (min-width: 576px) {
+  .work-link--header:hover,
+  .work-link--header:active,
+  .work-link--header:focus {
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 992px) {
   .work-link--header:hover,
@@ -247,10 +261,16 @@ a {
 @media (min-width: 576px) {
   .gallery-section {
     padding-top: 180px;
+    padding-bottom: 180px;
   }
 }
 .contact-section {
-  height: 920px;
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .contact-section {
+    height: 920px;
+  }
 }
 .biography {
   padding-top: 50px;

@@ -27,8 +27,14 @@ a {
 @media (min-width: 576px) {
   .gallery-section {
     padding-top: 180px;
+    padding-bottom: 180px;
   }
 }
 .contact-section {
-  height: 920px;
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .contact-section {
+    height: 920px;
+  }
 }
