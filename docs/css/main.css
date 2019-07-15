@@ -104,11 +104,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 768px;
 }
 @media (min-width: 1200px) {
   .frame {
-    height: 915px;
+    height: 895px;
   }
 }
 .frame1 {
