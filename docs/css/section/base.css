@@ -19,6 +19,7 @@ a {
   transition: 0.2s;
 }
 .header-section {
+  height: 955px;
   padding-bottom: 55px;
 }
 .bio-section {
