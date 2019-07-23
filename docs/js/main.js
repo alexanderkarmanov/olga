@@ -62,5 +62,8 @@ $(document).ready(function() {
 	    highlightSelector:"nav a"
 	});
 
+  new fullpage('#fullpage', {
+});
+
 	
 });

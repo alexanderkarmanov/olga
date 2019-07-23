@@ -6,11 +6,11 @@
 
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap&subset=cyrillic" rel="stylesheet"> 
-	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
 
 	<!-- FavIcon -->
 	<link rel="icon" href="#"  type="image/x-icon" />
@@ -19,10 +19,14 @@
 	<link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 
+	<!-- fullPage -->
+	<link rel="stylesheet" type="text/css" href="js/fullPage/fullpage.css" />
+
 	
 
 </head>
 <body>
+	
 <!-- navigation -->
 <div class="container fixed navigation-section">
 			<div class="row ">
@@ -65,32 +69,35 @@
 			</div>
 <!-- // navigation -->
 
+<div id="fullpage">
 <!-- header -->
-<div class="container header-section" id="home">
-	<div class="row">
-		<div class="header-content col-xl-6">
-			<h1 class="header-content__title rus visible">Ольга Баранцева</h1>
-			<h1 class="header-content__title eng hidden">Olga Barantseva</h1>
-			<div class="header-content__subtitle rus visible">Жанровый портрет</div>
-			<div class="header-content__subtitle eng hidden">genre portrait</div>
-			<h2 class="header-content__slogan rus visible">История<br>в одном<br><i>кадре</i> <span>»</span></h2>
-			<h2 class="header-content__slogan eng hidden">The story<br>in a single<br><i>frame</i> <span>»</span></h2>
+<div class="section">
+	<div class="container header-section " id="home">
+		<div class="row">
+			<div class="header-content col-xl-6">
+				<h1 class="header-content__title rus visible">Ольга Баранцева</h1>
+				<h1 class="header-content__title eng hidden">Olga Barantseva</h1>
+				<div class="header-content__subtitle rus visible">Жанровый портрет</div>
+				<div class="header-content__subtitle eng hidden">genre portrait</div>
+				<h2 class="header-content__slogan rus visible">История<br>в одном<br><i>кадре</i> <span>»</span></h2>
+				<h2 class="header-content__slogan eng hidden">The story<br>in a single<br><i>frame</i> <span>»</span></h2>
 
-			<nav>
-				<a href="#works" class="work-link work-link--header">
-					<div class="rus">мои работы</div>
-					<div class="eng hidden">gallery</div>
-				</a>
-			</nav>
+				<nav>
+					<a href="#works" class="work-link work-link--header">
+						<div class="rus">мои работы</div>
+						<div class="eng hidden">gallery</div>
+					</a>
+				</nav>
 
-			<div class="header-social">
-				<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			</div>
-		</div>		
+				<div class="header-social">
+					<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+			</div>		
+		</div>
 	</div>
-</div>
+
 
 <!-- owl-carousel -->
 <div class="bg-carousel">
@@ -101,10 +108,12 @@
 	</div>
 </div>
 <!-- // owl-carousel -->
+</div>
 <!-- // header -->
 
 <!-- biography -->
-<div class="biography container bio-section" id="bio">
+<div class="section">
+	<div class="biography container bio-section " id="bio">
 	<div class="biography-text">
 		<div class="biography__avatar"></div>
 		<h1 class="biography__title rus">Обо мне</h1>
@@ -122,68 +131,72 @@
 			<div class="eng hidden">gallery</div>
 		</a>
 	</nav>
+	</div>
 </div>
 <!-- // biography -->
 
 <!-- gallery -->
-<div class="gallery container gallery-section" id="works">
-	<div class="row gallery-box">
-		<div class="gallery-img">
-			<div class="gallery-img__hover">
-				<span> </span>
+<div class="section">
+	<div class="gallery container gallery-section " id="works">
+		<div class="row gallery-box">
+			<div class="gallery-img">
+				<div class="gallery-img__hover">
+					<span> </span>
+				</div>
+				<img src="img/foto_2.jpg" alt="">
 			</div>
-			<img src="img/foto_2.jpg" alt="">
-		</div>
-		<div class="gallery-img">
-			<div class="gallery-img__hover">
-				<span> </span>
+			<div class="gallery-img">
+				<div class="gallery-img__hover">
+					<span> </span>
+				</div>
+				<img src="img/foto_6.jpg" alt="">
 			</div>
-			<img src="img/foto_6.jpg" alt="">
-		</div>
-		<div class="gallery-img">
-			<div class="gallery-img__hover">
-				<span> </span>
+			<div class="gallery-img">
+				<div class="gallery-img__hover">
+					<span> </span>
+				</div>
+				<img src="img/foto_12.jpg" alt="">
 			</div>
-			<img src="img/foto_12.jpg" alt="">
-		</div>
-		<div class="gallery-img">
-			<div class="gallery-img__hover">
-				<span> </span>
+			<div class="gallery-img">
+				<div class="gallery-img__hover">
+					<span> </span>
+				</div>
+				<img src="img/foto_25.jpg" alt="">
 			</div>
-			<img src="img/foto_25.jpg" alt="">
-		</div>
 
-		<div class="gallery-img">
-			<div class="gallery-img__hover">
-				<span> </span>
+			<div class="gallery-img">
+				<div class="gallery-img__hover">
+					<span> </span>
+				</div>
+				<img src="img/foto_2.jpg" alt="">
 			</div>
-			<img src="img/foto_2.jpg" alt="">
-		</div>
-		<div class="gallery-img">
-			<div class="gallery-img__hover">
-				<span> </span>
+			<div class="gallery-img">
+				<div class="gallery-img__hover">
+					<span> </span>
+				</div>
+				<img src="img/foto_6.jpg" alt="">
 			</div>
-			<img src="img/foto_6.jpg" alt="">
-		</div>
-		<div class="gallery-img">
-			<div class="gallery-img__hover">
-				<span> </span>
+			<div class="gallery-img">
+				<div class="gallery-img__hover">
+					<span> </span>
+				</div>
+				<img src="img/foto_12.jpg" alt="">
 			</div>
-			<img src="img/foto_12.jpg" alt="">
-		</div>
-		<div class="gallery-img">
-			<div class="gallery-img__hover">
-				<span> </span>
+			<div class="gallery-img">
+				<div class="gallery-img__hover">
+					<span> </span>
+				</div>
+				<img src="img/foto_25.jpg" alt="">
 			</div>
-			<img src="img/foto_25.jpg" alt="">
-		</div>
 
+		</div>
 	</div>
 </div>
 <!-- // gallery -->
 
 <!-- contact -->
-<div class="contact container contact-section" id="contact">
+<div class="section">
+	<div class="contact container contact-section " id="contact">
 	<div class="contact_block">
 		<h1 class="contact-title rus">Контакты</h1>
 		<h1 class="contact-title eng hidden">Contacts</h1>
@@ -212,7 +225,7 @@
 		
 
 	</form>
-
+</div>
 
 
 </div>
@@ -222,7 +235,7 @@
 
  
 <!-- // contact -->
-
+</div>
 
 
 
@@ -232,7 +245,7 @@
 <script src="libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 <script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
 <script src="https://use.fontawesome.com/b9a0b9c8d2.js"></script>
-
+<script type="text/javascript" src="js/fullPage/fullpage.js"></script>
 
 <script src="js/main.js"></script>
 
