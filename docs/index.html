@@ -71,7 +71,7 @@
 <!-- // navigation -->
 
 <!-- header -->
-	<div class="container header-section " id="home">
+	<div class="container header-section" id="home">
 		<div class="row">
 			<div class="header-content col-xl-6">
 				<h1 class="header-content__title rus visible">Ольга Баранцева</h1>
@@ -227,10 +227,69 @@
 
 		</div>
 	</div>
+	<div class="rus">
+		<form action="" class="contact-form" action="php/mail.php" method="POST">
+			
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="Мой персональный сайт">
+			<input type="hidden" name="form_from" value="karmanov76@gmail.com">
+			<input type="hidden" name="admin_email" value="karmanov76@gmail.com">
+			<input type="hidden" name="form_subject" value="Сообщение с сайта">
+			<!-- END Hidden Required Fields -->
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+				<input type="text" name="name" class="mail__form--input form_text" placeholder="Имя"></div>
+				<div class="col-6">
+				<input type="text" name="email" class="mail__form--input form_text" placeholder="E-mail"></div>
+				</div>
 
-	<form action="" class="contact-form" >
+				<div class="row">
+					<div class="col-12">
+					<textarea name="message" id="" class="mail__form--textarea form_text" placeholder="Ваше сообщение"></textarea></div>
+				</div>
 
+				<div class="row">
+					<div class="col-3">
+					<input type="submit" name="" class=" work-link work-link--form" value ="Отправить">
+					</div>
+				</div>
+			</div>
+		</form>
+		</div>
+
+		<div class="eng hidden">
+	<form action="" class="contact-form" action="php/mail.php" method="POST">
+		
+		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="My personal site">
+		<input type="hidden" name="form_from" value="karmanov76@gmail.com">
+		<input type="hidden" name="admin_email" value="karmanov76@gmail.com">
+		<input type="hidden" name="form_subject" value="Сообщение с сайта">
+		<!-- END Hidden Required Fields -->
+		
+		<div class="container">
+		<div class="row">
+			<div class="col-6">
+		<input type="text" name="name" class="mail__form--input form_text" placeholder="Name"></div>
+		<div class="col-6">
+		<input type="text" name="email" class="mail__form--input form_text" placeholder="E-mail"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+			<textarea name="message" id="" class="mail__form--textarea form_text" placeholder="You message"></textarea></div>
+		</div>
+
+		<div class="row">
+			<div class="col-3">
+				<input type="submit" name="" class=" work-link work-link--form" value ="send">
+			</div>
+		</div>
+		</div>
 	</form>
+		</div>
 </div>
 
 <!-- // contact -->
